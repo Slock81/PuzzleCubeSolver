@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5562428629729812906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5562428629729812907}
+  - component: {fileID: 5562428629729812904}
+  - component: {fileID: 5562428629729812905}
+  m_Layer: 0
+  m_Name: SeanBix
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5562428629729812907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5562428629729812906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.2370553, y: 2.5680413, z: -8.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5562428629729812904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5562428629729812906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4245e25e54793e847bba0e0b89d941fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  omegaCubeObj: {fileID: 8852377431180332709, guid: 66a778827d23f2c44ba4122804b392c8, type: 3}
+  cubeOffset: 2.423
+--- !u!114 &5562428629729812905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5562428629729812906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1dbd7c7c6b85245ac6dfb76f0d6d41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rubixLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  emissStrength: 2
+  rotateSpeed: 50
+  rotateCubeLeft: 276
+  rotateCubeRight: 275
+  rotateCubeBack: 273
+  rotateCubeForward: 274
+  restRotation: 278
+  counterClockWise: 308
+  rotateForwardFace: 261
+  rotateRightFace: 260
+  rotateTopFace: 264
+  rotateBackFace: 256
+  rotateLeftFace: 262
+  rotateBottomFace: 258
+  numRecordedMoves: 0
+  castPosition: {x: -999, y: -999, z: -999}
+  timeToRotate: 0.1
+  searchSpaces: []
+  normalClick: {x: 0, y: 0, z: 0}
+  drawGizmos: 1
